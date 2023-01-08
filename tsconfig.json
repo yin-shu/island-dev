@@ -5,6 +5,7 @@
     "outDir": "dist",
     "rootDir": ".",
     "jsx": "react-jsx",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": "src"
   }
 }
