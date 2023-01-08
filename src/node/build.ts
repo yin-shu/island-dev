@@ -1,5 +1,6 @@
 import { join } from 'path';
-import { build as viteBuild, InlineConfig } from 'vite';
+import { build as viteBuild } from 'vite';
+import type { InlineConfig } from 'vite';
 import { CLIENT_ENTRY_PATH, SERVER_ENTRY_PATH } from './constants';
 import fs from 'fs-extra';
 import { pathToFileURL } from 'url';
